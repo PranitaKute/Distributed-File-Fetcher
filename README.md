@@ -42,23 +42,27 @@ pip install -r requirements.txt
 
 ### 2. Create test files (IMPORTANT)
 
-Inside server1/, create a file:
-** file1.txt **
-Add content: Hello from Server 1
+#### Inside server1/, create a file:
 
-Inside server2/, create a file:
-** file2.txt **
-Add content: Hello from Server 2
+**file1.txt**
+
+Add content: *"Hello from Server 1"* 
+
+#### Inside server2/, create a file:
+
+**file2.txt**
+
+Add content: *"Hello from Server 2"*
 
 ### 3. Run servers
 
-** Terminal 1: **
+**Terminal 1:**
 ```
 cd server1
 python server.py 5001
 ```
 
-** Terminal 2: **
+**Terminal 2:**
 ```
 cd server2
 python server.py 5002
